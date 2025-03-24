@@ -43,3 +43,12 @@ yarn-error.log*
 
 # vercel deployment
 .vercel
+
+# Ignore generated or build files
+lib/__generated__/
+lib/build/
+lib/cache/
+
+# Ignore accidental secrets
+lib/*.secret.*
+lib/secret.ts
