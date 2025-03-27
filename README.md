@@ -49,13 +49,13 @@ This project demonstrates the power of combining modern full-stack tools and bes
 
 ## Project Structure
 
-/app - Next.js app directory
-/components - Reusable UI components
-/lib - Utilities and helpers
-/prisma - Prisma schema & migrations
-/public - Static assets
-/styles - Tailwind and global styles
-/tests - Unit tests
+- /app - Next.js app directory
+- /components - Reusable UI components
+- /lib - Utilities and helpers
+- /prisma - Prisma schema & migrations
+- /public - Static assets
+- /styles - Tailwind and global styles
+- /tests - Unit tests
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
