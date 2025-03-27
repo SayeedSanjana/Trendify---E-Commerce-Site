@@ -1,3 +1,62 @@
+# Trendify – Full-Stack E-commerce Platform Built with Next.js
+
+**Trendify** is a modern, full-featured e-commerce web application built with **Next.js 15**, **React 19**, and **TypeScript**. Designed to offer a seamless shopping experience, Prostore includes robust features like payment integration, user authentication, admin dashboards, and product reviews — all styled with a clean, responsive UI.
+
+This project demonstrates the power of combining modern full-stack tools and best practices to build a scalable and production-ready web application.
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- **Next.js 15**
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS** + **ShadCN UI**
+- **Recharts** – Data Visualization
+- **React Hook Form** – Form Handling
+- **Zod** – Validation
+- **Uploadthing** – File Uploads
+
+### Backend
+
+- **Prisma** – ORM
+- **PostgreSQL** – Relational Database
+- **NextAuth** – Authentication
+- **Stripe** & **PayPal APIs** – Payment Integration
+
+### Tooling & Testing
+
+- **ESLint** – Code Linting
+- **Jest** – Unit Testing
+
+---
+
+## Features
+
+- Secure User Authentication with NextAuth
+- Full Shopping Cart & Checkout Experience
+- Payment Integration with Stripe & PayPal
+- Email Receipt Generation
+- Product Ratings and Reviews
+- Admin Dashboard with Data Visualization (Recharts)
+- Product Image & File Uploads
+- Responsive UI with Accessible Design (Tailwind + ShadCN)
+- End-to-End Form Validation and Error Handling (Zod + RHF)
+
+---
+
+## Project Structure
+
+/app - Next.js app directory
+/components - Reusable UI components
+/lib - Utilities and helpers
+/prisma - Prisma schema & migrations
+/public - Static assets
+/styles - Tailwind and global styles
+/tests - Unit tests
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
